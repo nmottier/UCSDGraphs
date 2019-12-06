@@ -131,6 +131,16 @@ public abstract class Graph {
 		return listOfDegrees;
 	}
 	
+	public void removeEdge(Integer startVertex, Integer endVertex) {
+		implementRemoveEdge(startVertex, endVertex);
+		numEdges--;
+	}
+	
+	/**
+	 * Abstract method for implementing removing an edge from the graph.
+	 */
+	public abstract void implementRemoveEdge(Integer startVertex, Integer endVertex);
+
 	/**
 	 * Get all the vertices that are 2 away from the vertex in question.
 	 * @param v The starting vertex

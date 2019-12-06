@@ -26,6 +26,15 @@ public class GraphAdjMatrix extends Graph {
 		adjMatrix = new int[defaultNumVertices][defaultNumVertices];
 	}
 	
+    /** 
+	 * Implement the abstract method for removing an edge 
+	 */
+	public void implementRemoveEdge(Integer startVertex, Integer endVertex) {
+	    // TODO: you will implement this method
+
+	}
+
+	
 	/** 
 	 * Implement the abstract method for adding a vertex.
 	 * If need to increase dimensions of matrix, double them
