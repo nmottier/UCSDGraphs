@@ -274,7 +274,7 @@ public abstract class Graph {
 		GraphAdjList airportGraph = new GraphAdjList();
 		GraphLoader.loadRoutes("data/airports/routesUA.dat", airportGraph);
 		airportGraph.removeEdge(8, 6);
-		airportGraph.removeEdge(6, 8);
+		airportGraph.removeEdge(6, 8); 
 		airportGraph.removeEdge(1, 15);
 		
 		System.out.println(airportGraph);
