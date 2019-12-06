@@ -42,6 +42,8 @@ public class GraphAdjList extends Graph {
 	 */
 	public void implementRemoveEdge(Integer startVertex, Integer endVertex) {
 	    // TODO: you will implement this method
+		(adjListsMap.get(startVertex)).remove(endVertex);
+		
 
 	}
 

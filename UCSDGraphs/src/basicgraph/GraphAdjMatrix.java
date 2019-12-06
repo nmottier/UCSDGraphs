@@ -31,7 +31,7 @@ public class GraphAdjMatrix extends Graph {
 	 */
 	public void implementRemoveEdge(Integer startVertex, Integer endVertex) {
 	    // TODO: you will implement this method
-
+		adjMatrix[startVertex][endVertex] = 0;
 	}
 
 	
