@@ -129,8 +129,6 @@ public abstract class Graph {
 		Collections.sort(listOfDegrees);
 		Collections.reverse(listOfDegrees);
 		return listOfDegrees;
-
-		return null;
 	}
 	
 	/**
